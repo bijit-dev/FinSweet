@@ -10,13 +10,13 @@ const Navber = () => {
         <nav className='bg-[#1C1E53] py-4'>
             <Container>
                 <Flex className='items-center'>
-                    <div className='w-[35%]'>
+                    <div className='w-5/12'>
                         <img src={Logo} alt="" />
                     </div>
-                    <div className='w-[50%]'>
+                    <div className='w-5/12 pl-20'>
                         <List/>
                     </div>
-                    <div className='w-[15%]'>
+                    <div className='w-2/12'>
                         <Button text="Contact us"/>
                     </div>
                 </Flex>
