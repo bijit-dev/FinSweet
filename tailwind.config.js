@@ -1,0 +1,29 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        'primary': '#BBBBCB',
+      },
+      fontFamily: {
+        'pop': ["Poppins"],
+        
+      },
+      width: {
+        'container': '1280px',
+        'w313': '313px',
+
+      },
+      spacing: {
+        'p128': '128px',
+        
+      }
+    },
+  },
+  plugins: [],
+}
+
