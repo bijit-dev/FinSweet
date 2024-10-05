@@ -13,7 +13,7 @@ const Navber = () => {
                     <div className='w-5/12'>
                         <img src={Logo} alt="" />
                     </div>
-                    <div className='w-5/12 pl-20'>
+                    <div className='w-5/12'>
                         <List/>
                     </div>
                     <div className='w-2/12'>
